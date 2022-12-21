@@ -1,0 +1,280 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ecoObsCallFinderFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ecoCallFinder",
+        "printedName": "ecoCallFinder",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "samplerate",
+            "printedName": "samplerate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25ecoObsCallFinderFramework0acD0C10samplerateSivp",
+            "mangledName": "$s25ecoObsCallFinderFramework0acD0C10samplerateSivp",
+            "moduleName": "ecoObsCallFinderFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25ecoObsCallFinderFramework0acD0C10samplerateSivg",
+                "mangledName": "$s25ecoObsCallFinderFramework0acD0C10samplerateSivg",
+                "moduleName": "ecoObsCallFinderFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25ecoObsCallFinderFramework0acD0C10samplerateSivs",
+                "mangledName": "$s25ecoObsCallFinderFramework0acD0C10samplerateSivs",
+                "moduleName": "ecoObsCallFinderFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25ecoObsCallFinderFramework0acD0C10samplerateSivM",
+                "mangledName": "$s25ecoObsCallFinderFramework0acD0C10samplerateSivM",
+                "moduleName": "ecoObsCallFinderFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ecoCallFinder",
+                "printedName": "ecoObsCallFinderFramework.ecoCallFinder",
+                "usr": "s:25ecoObsCallFinderFramework0acD0C"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:25ecoObsCallFinderFramework0acD0CACycfc",
+            "mangledName": "$s25ecoObsCallFinderFramework0acD0CACycfc",
+            "moduleName": "ecoObsCallFinderFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "findCalls",
+            "printedName": "findCalls(soundData:offset:startSample:sampleCount:zfthreshold:smooth:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[(start: Swift.Int, end: Swift.Int)]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(start: Swift.Int, end: Swift.Int)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "[Swift.Float]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.Float]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "paramValueOwnership": "InOut",
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25ecoObsCallFinderFramework0acD0C9findCalls9soundData6offset11startSample11sampleCount11zfthreshold6smoothSaySi0K0_Si3endtGSaySfGSgz_SfS2iS2ftF",
+            "mangledName": "$s25ecoObsCallFinderFramework0acD0C9findCalls9soundData6offset11startSample11sampleCount11zfthreshold6smoothSaySi0K0_Si3endtGSaySfGSgz_SfS2iS2ftF",
+            "moduleName": "ecoObsCallFinderFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:25ecoObsCallFinderFramework0acD0C",
+        "mangledName": "$s25ecoObsCallFinderFramework0acD0C",
+        "moduleName": "ecoObsCallFinderFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/vrunkel\/Devel\/non-versioned\/ecoObsCallFinderFramework\/ecoObsCallFinderFramework\/ecoCallFinder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 247,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vrunkel\/Devel\/non-versioned\/ecoObsCallFinderFramework\/ecoObsCallFinderFramework\/ecoCallFinder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 299,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/vrunkel\/Devel\/non-versioned\/ecoObsCallFinderFramework\/ecoObsCallFinderFramework\/ecoCallFinder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 192,
+      "length": 6,
+      "value": "500000"
+    },
+    {
+      "filePath": "\/Users\/vrunkel\/Devel\/non-versioned\/ecoObsCallFinderFramework\/ecoObsCallFinderFramework\/ecoCallFinder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 362,
+      "length": 3,
+      "value": "500"
+    },
+    {
+      "filePath": "\/Users\/vrunkel\/Devel\/non-versioned\/ecoObsCallFinderFramework\/ecoObsCallFinderFramework\/ecoCallFinder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 455,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/vrunkel\/Devel\/non-versioned\/ecoObsCallFinderFramework\/ecoObsCallFinderFramework\/ecoCallFinder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 477,
+      "length": 3,
+      "value": "200"
+    }
+  ]
+}

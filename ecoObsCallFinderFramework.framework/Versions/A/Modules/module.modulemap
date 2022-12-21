@@ -1,0 +1,11 @@
+framework module ecoObsCallFinderFramework {
+  umbrella header "ecoObsCallFinderFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module ecoObsCallFinderFramework.Swift {
+  header "ecoObsCallFinderFramework-Swift.h"
+  requires objc
+}
