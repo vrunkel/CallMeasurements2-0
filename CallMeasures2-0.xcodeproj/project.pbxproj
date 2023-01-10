@@ -20,9 +20,11 @@
 		8B47E4D5245D5A4E00BD53FA /* CallMeasuresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B47E4D4245D5A4E00BD53FA /* CallMeasuresView.swift */; };
 		8B5E8654292D259D00B0B4EF /* SwiftImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B5E8642292D258C00B0B4EF /* SwiftImage.framework */; };
 		8B5E8655292D259D00B0B4EF /* SwiftImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B5E8642292D258C00B0B4EF /* SwiftImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8B767993296C1FC700EAFC5D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 8B76798B296C1FC700EAFC5D /* LICENSE */; };
 		8BAAEDDE2951C50B000F485A /* ecoObsCallFinderFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BAAEDD62951C50B000F485A /* ecoObsCallFinderFramework.framework */; };
 		8BD2307C293498A900BEF439 /* DebugController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD2307A293498A900BEF439 /* DebugController.swift */; };
 		8BD2307D293498A900BEF439 /* DebugController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BD2307B293498A900BEF439 /* DebugController.xib */; };
+		8BED2DAE296D55CD00F8576B /* Call-measurement-extraction.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8BED2DA6296D55CD00F8576B /* Call-measurement-extraction.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,9 +109,11 @@
 		8B47E4D2245CA5B900BD53FA /* DetailWaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailWaveView.swift; sourceTree = "<group>"; };
 		8B47E4D4245D5A4E00BD53FA /* CallMeasuresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallMeasuresView.swift; sourceTree = "<group>"; };
 		8B5E8633292D258C00B0B4EF /* SwiftImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftImage.xcodeproj; path = "../../stuff-git/swift-image/SwiftImage.xcodeproj"; sourceTree = "<group>"; };
+		8B76798B296C1FC700EAFC5D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		8BAAEDD62951C50B000F485A /* ecoObsCallFinderFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ecoObsCallFinderFramework.framework; sourceTree = "<group>"; };
 		8BD2307A293498A900BEF439 /* DebugController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugController.swift; sourceTree = "<group>"; };
 		8BD2307B293498A900BEF439 /* DebugController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DebugController.xib; sourceTree = "<group>"; };
+		8BED2DA6296D55CD00F8576B /* Call-measurement-extraction.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Call-measurement-extraction.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +132,8 @@
 		8B47E493245B1F9D00BD53FA = {
 			isa = PBXGroup;
 			children = (
+				8B76798B296C1FC700EAFC5D /* LICENSE */,
+				8BED2DA6296D55CD00F8576B /* Call-measurement-extraction.pdf */,
 				8B5E8633292D258C00B0B4EF /* SwiftImage.xcodeproj */,
 				8B47E49E245B1F9D00BD53FA /* CallMeasures2-0 */,
 				8B47E49D245B1F9D00BD53FA /* Products */,
@@ -314,7 +320,9 @@
 			files = (
 				8BD2307D293498A900BEF439 /* DebugController.xib in Resources */,
 				8B47E4A2245B1FA100BD53FA /* Assets.xcassets in Resources */,
+				8B767993296C1FC700EAFC5D /* LICENSE in Resources */,
 				8B47E4A5245B1FA100BD53FA /* MainMenu.xib in Resources */,
+				8BED2DAE296D55CD00F8576B /* Call-measurement-extraction.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
