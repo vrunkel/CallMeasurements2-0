@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BAA249D2AFA1E2A00955435 /* BatCallClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAA249C2AFA1E2A00955435 /* BatCallClassifier.swift */; };
+		8BAA249F2AFA3D5600955435 /* FolderAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAA249E2AFA3D5600955435 /* FolderAnalysis.swift */; };
+		8BAA24A42AFB9E0500955435 /* BatCallHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAA24A32AFB9E0500955435 /* BatCallHandling.swift */; };
+		8BAA24B92AFCC8AD00955435 /* CallDetailSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAA24B82AFCC8AD00955435 /* CallDetailSheet.swift */; };
+		8BCD8AAD2AF253EA0071A90A /* RufbestimmungTestAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCD8AAC2AF253EA0071A90A /* RufbestimmungTestAppApp.swift */; };
+		8BCD8AAF2AF253EA0071A90A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCD8AAE2AF253EA0071A90A /* ContentView.swift */; };
+		8BCD8AB12AF253EB0071A90A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BCD8AB02AF253EB0071A90A /* Assets.xcassets */; };
+		8BCD8AB42AF253EB0071A90A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BCD8AB32AF253EB0071A90A /* Preview Assets.xcassets */; };
+		8BCD8ABC2AF254220071A90A /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCD8ABB2AF254220071A90A /* DataModel.swift */; };
+		8BCD8AC52AF283810071A90A /* TabluarMyotisClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8BCD8AC02AF283800071A90A /* TabluarMyotisClassifier.mlmodel */; };
+		8BCD8AC62AF283810071A90A /* TabluarGenusClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8BCD8AC12AF283800071A90A /* TabluarGenusClassifier.mlmodel */; };
+		8BCD8AC72AF283810071A90A /* TabluarNyctaloidClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8BCD8AC22AF283810071A90A /* TabluarNyctaloidClassifier.mlmodel */; };
+		8BCD8AC82AF283810071A90A /* TabluarPipistrelloidClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8BCD8AC32AF283810071A90A /* TabluarPipistrelloidClassifier.mlmodel */; };
+		8BCD8AC92AF283810071A90A /* TabluarSpeciesClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8BCD8AC42AF283810071A90A /* TabluarSpeciesClassifier.mlmodel */; };
+		8BCD8AD22AF28CF20071A90A /* SingleRecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCD8AD12AF28CF20071A90A /* SingleRecordingView.swift */; };
+		8BCD8AD42AF397C30071A90A /* CallPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCD8AD32AF397C30071A90A /* CallPreview.swift */; };
+		8BCD8AD62AF4F5A90071A90A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCD8AD52AF4F5A90071A90A /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8BAA249C2AFA1E2A00955435 /* BatCallClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatCallClassifier.swift; sourceTree = "<group>"; };
+		8BAA249E2AFA3D5600955435 /* FolderAnalysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderAnalysis.swift; sourceTree = "<group>"; };
+		8BAA24A32AFB9E0500955435 /* BatCallHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatCallHandling.swift; sourceTree = "<group>"; };
+		8BAA24B82AFCC8AD00955435 /* CallDetailSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallDetailSheet.swift; sourceTree = "<group>"; };
+		8BCD8AA92AF253EA0071A90A /* RufbestimmungTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RufbestimmungTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BCD8AAC2AF253EA0071A90A /* RufbestimmungTestAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RufbestimmungTestAppApp.swift; sourceTree = "<group>"; };
+		8BCD8AAE2AF253EA0071A90A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8BCD8AB02AF253EB0071A90A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BCD8AB32AF253EB0071A90A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8BCD8AB52AF253EB0071A90A /* RufbestimmungTestApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RufbestimmungTestApp.entitlements; sourceTree = "<group>"; };
+		8BCD8ABB2AF254220071A90A /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		8BCD8AC02AF283800071A90A /* TabluarMyotisClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TabluarMyotisClassifier.mlmodel; sourceTree = "<group>"; };
+		8BCD8AC12AF283800071A90A /* TabluarGenusClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TabluarGenusClassifier.mlmodel; sourceTree = "<group>"; };
+		8BCD8AC22AF283810071A90A /* TabluarNyctaloidClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TabluarNyctaloidClassifier.mlmodel; sourceTree = "<group>"; };
+		8BCD8AC32AF283810071A90A /* TabluarPipistrelloidClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TabluarPipistrelloidClassifier.mlmodel; sourceTree = "<group>"; };
+		8BCD8AC42AF283810071A90A /* TabluarSpeciesClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TabluarSpeciesClassifier.mlmodel; sourceTree = "<group>"; };
+		8BCD8AD12AF28CF20071A90A /* SingleRecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleRecordingView.swift; sourceTree = "<group>"; };
+		8BCD8AD32AF397C30071A90A /* CallPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallPreview.swift; sourceTree = "<group>"; };
+		8BCD8AD52AF4F5A90071A90A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BCD8AA62AF253EA0071A90A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BCD8AA02AF253EA0071A90A = {
+			isa = PBXGroup;
+			children = (
+				8BCD8AAB2AF253EA0071A90A /* RufbestimmungTestApp */,
+				8BCD8AAA2AF253EA0071A90A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BCD8AAA2AF253EA0071A90A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BCD8AA92AF253EA0071A90A /* RufbestimmungTestApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BCD8AAB2AF253EA0071A90A /* RufbestimmungTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				8BCD8AAC2AF253EA0071A90A /* RufbestimmungTestAppApp.swift */,
+				8BCD8AAE2AF253EA0071A90A /* ContentView.swift */,
+				8BAA249E2AFA3D5600955435 /* FolderAnalysis.swift */,
+				8BCD8AD12AF28CF20071A90A /* SingleRecordingView.swift */,
+				8BCD8AD32AF397C30071A90A /* CallPreview.swift */,
+				8BAA24B82AFCC8AD00955435 /* CallDetailSheet.swift */,
+				8BCD8ACA2AF283850071A90A /* Classifiers */,
+				8BCD8AB02AF253EB0071A90A /* Assets.xcassets */,
+				8BCD8AB52AF253EB0071A90A /* RufbestimmungTestApp.entitlements */,
+				8BCD8AB22AF253EB0071A90A /* Preview Content */,
+				8BCD8ABB2AF254220071A90A /* DataModel.swift */,
+				8BAA24A32AFB9E0500955435 /* BatCallHandling.swift */,
+				8BAA249C2AFA1E2A00955435 /* BatCallClassifier.swift */,
+				8BCD8AD52AF4F5A90071A90A /* Extensions.swift */,
+			);
+			path = RufbestimmungTestApp;
+			sourceTree = "<group>";
+		};
+		8BCD8AB22AF253EB0071A90A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8BCD8AB32AF253EB0071A90A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8BCD8ACA2AF283850071A90A /* Classifiers */ = {
+			isa = PBXGroup;
+			children = (
+				8BCD8AC12AF283800071A90A /* TabluarGenusClassifier.mlmodel */,
+				8BCD8AC02AF283800071A90A /* TabluarMyotisClassifier.mlmodel */,
+				8BCD8AC22AF283810071A90A /* TabluarNyctaloidClassifier.mlmodel */,
+				8BCD8AC32AF283810071A90A /* TabluarPipistrelloidClassifier.mlmodel */,
+				8BCD8AC42AF283810071A90A /* TabluarSpeciesClassifier.mlmodel */,
+			);
+			path = Classifiers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BCD8AA82AF253EA0071A90A /* RufbestimmungTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BCD8AB82AF253EB0071A90A /* Build configuration list for PBXNativeTarget "RufbestimmungTestApp" */;
+			buildPhases = (
+				8BCD8AA52AF253EA0071A90A /* Sources */,
+				8BCD8AA62AF253EA0071A90A /* Frameworks */,
+				8BCD8AA72AF253EA0071A90A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RufbestimmungTestApp;
+			productName = RufbestimmungTestApp;
+			productReference = 8BCD8AA92AF253EA0071A90A /* RufbestimmungTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BCD8AA12AF253EA0071A90A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					8BCD8AA82AF253EA0071A90A = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 8BCD8AA42AF253EA0071A90A /* Build configuration list for PBXProject "RufbestimmungTestApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BCD8AA02AF253EA0071A90A;
+			productRefGroup = 8BCD8AAA2AF253EA0071A90A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BCD8AA82AF253EA0071A90A /* RufbestimmungTestApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BCD8AA72AF253EA0071A90A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BCD8AB42AF253EB0071A90A /* Preview Assets.xcassets in Resources */,
+				8BCD8AB12AF253EB0071A90A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BCD8AA52AF253EA0071A90A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BCD8AC92AF283810071A90A /* TabluarSpeciesClassifier.mlmodel in Sources */,
+				8BCD8AC52AF283810071A90A /* TabluarMyotisClassifier.mlmodel in Sources */,
+				8BAA249D2AFA1E2A00955435 /* BatCallClassifier.swift in Sources */,
+				8BCD8AC62AF283810071A90A /* TabluarGenusClassifier.mlmodel in Sources */,
+				8BAA24A42AFB9E0500955435 /* BatCallHandling.swift in Sources */,
+				8BCD8ABC2AF254220071A90A /* DataModel.swift in Sources */,
+				8BCD8AC82AF283810071A90A /* TabluarPipistrelloidClassifier.mlmodel in Sources */,
+				8BAA249F2AFA3D5600955435 /* FolderAnalysis.swift in Sources */,
+				8BAA24B92AFCC8AD00955435 /* CallDetailSheet.swift in Sources */,
+				8BCD8AAF2AF253EA0071A90A /* ContentView.swift in Sources */,
+				8BCD8AD42AF397C30071A90A /* CallPreview.swift in Sources */,
+				8BCD8AAD2AF253EA0071A90A /* RufbestimmungTestAppApp.swift in Sources */,
+				8BCD8AC72AF283810071A90A /* TabluarNyctaloidClassifier.mlmodel in Sources */,
+				8BCD8AD62AF4F5A90071A90A /* Extensions.swift in Sources */,
+				8BCD8AD22AF28CF20071A90A /* SingleRecordingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8BCD8AB62AF253EB0071A90A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8BCD8AB72AF253EB0071A90A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		8BCD8AB92AF253EB0071A90A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RufbestimmungTestApp/RufbestimmungTestApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RufbestimmungTestApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 3YKFA98U4Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.ecoobs.RufbestimmungTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8BCD8ABA2AF253EB0071A90A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RufbestimmungTestApp/RufbestimmungTestApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RufbestimmungTestApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 3YKFA98U4Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.ecoobs.RufbestimmungTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BCD8AA42AF253EA0071A90A /* Build configuration list for PBXProject "RufbestimmungTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BCD8AB62AF253EB0071A90A /* Debug */,
+				8BCD8AB72AF253EB0071A90A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BCD8AB82AF253EB0071A90A /* Build configuration list for PBXNativeTarget "RufbestimmungTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BCD8AB92AF253EB0071A90A /* Debug */,
+				8BCD8ABA2AF253EB0071A90A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BCD8AA12AF253EA0071A90A /* Project object */;
+}
