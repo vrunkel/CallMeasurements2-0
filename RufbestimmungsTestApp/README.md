@@ -1,0 +1,1 @@
+This is a second tool showing various identification results of some preliminary classifiers as well as various measurements in a single call display. It requires bcCalls and batIdent csv files for parameter extraction stored with each raw or wave recording. 
